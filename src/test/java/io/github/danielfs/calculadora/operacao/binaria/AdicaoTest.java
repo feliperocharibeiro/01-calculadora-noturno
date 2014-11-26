@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 public class AdicaoTest{
     private Adicao adicao;
     
+    @Before
     @public void inicializar(){
     adicao = new Adicao();
     }
